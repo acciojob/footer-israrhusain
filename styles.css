@@ -1,44 +1,49 @@
 /* your code here */
-#link{
-	position:relative;
-	display:inline-block;
-	
-}
-#links{
-	margin-top:-107px;
-	width:200px;
-}
-.nav{
-	font-size:23px;
-	margin:15px;
-	color:#B8B8B8;
-	padding-left:18px;
-	margin-top:px;
-	
-}
+
+
+
 .link-boxes{
 	color:white;
 	font-size:25px;
-	width:800px;
+	width:1000px;
 	display:flex;
-	justify-content:space-evenly;
-	gap:200px;
-	padding:90px;
+	justify-content:space-between;
+	margin:10px;
+	padding:40px 49px;
 	
-	margin-top:12px;
 	
-}
-.item{
-	width:500px;
-	margin:3px;
 	
 }
-.item::after{
+
+ul{
+list-style:none;	
+}
+h4{
+	color:white;
+	font-size:23px;
+	
+	height:2px;
+	
+	position:relative;
+	margin-bottom:30px;
+	
+}
+.item ul li{
+	padding:10px 0;
+	font-size:22px;
+	opacity:0.75;
+	transition:0.5;
+	margin-left:-37px;
+	padding-right:1px;
+}
+
+ h4::after{
 	content:"";
 	display:block;
 	height:2px;
 	width:45px;
 	background-color:white;
+	margin-botton:-20px;
 	
 }
 .media-icons{
@@ -49,14 +54,14 @@
 	padding-left:50px;
 	width:311px;
 	
-	border:2px solid white;
+	
 	
 	
 }
 .content{
 	
 	background-color:black;
-	height:500px;
+	height:400px;
 	position:relative;
 	padding:4px;
 	width:1100px;
@@ -64,12 +69,29 @@
 }
 .logo-details{
 	width:660px;
-	border: 2px solid white;
+	
 	dispaly:inline-block;
 	float:left;
 	margin:20px
 	
 }
+.bottom-details{
+	background-color:rgb(44, 48, 58);
+	padding:4px;
+	height:70px;
+	width:1100px;
+	font-size:22px;
+	color:white;
+	display:flex;
+	gap:600px;
+	
+}
+.bottom-details p{
+	margin:20px 10px 10px 40px;
+	opacity:0.70;
+	
+}
+
 .logo_name{
 	color:white;
 	font-size:50px;
