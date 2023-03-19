@@ -47,7 +47,7 @@ h4{
 	
 }
 .media-icons{
-	display:block;
+	display:flex;
 	float:left;
 	margin:15px;
 	right:90px;
